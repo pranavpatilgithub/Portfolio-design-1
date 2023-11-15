@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    font-family: 'DM Serif Display', serif;
+    background-color: black;
+}
+.hero-1{
+    width: 100%;
+    height: 100vh;
+}
+.hero-text h1{
+    font-size: 10em;
+    color: #EEEEEE;
+    padding: 1rem;
+}
+.hero-btn{
+    padding: 1rem;
+}
+.hero-btn button{
+    padding: 1rem;
+    background-color: #4E4FEB;
+    color: #EEEEEE;
+    font-family: 'DM Serif Display', serif;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5em;
+}
+.hero-btn button:hover{
+    background-color: #068FFF;
+}
+/*------------------------------------*/
+.hero-2{
+    width: 100%;
+    height: 100vh;
+}
+.hero-text h2{
+    font-size: 5em;
+    color: #EEEEEE;
+    padding: 2rem;
+}
+.stack-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stack{
+    display: flex;
+    flex-direction: column;
+}
+.stack-heading h2{
+    color: #EEEEEE;
+    text-align: center;
+}
+.stack-elements{
+    margin-bottom: 2px;
+    width: 10em;
+    height: 2em;
+    background-color: #4E4FEB;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.stack-elements h1{
+    color: black;
+    font-size: 1.5em;
+}
+.stack-1 .item-0{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-1 .item-1{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-1 .item-2{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-2 .item-0{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-2 .item-1{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-2 .item-2{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-2 .item-3{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-3 .item-0{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-3 .item-1{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-3 .item-2{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-3 .item-3{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-3 .item-4{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+.stack-3 .item-5{
+    background-color: black;
+    border: 2px solid #4E4FEB;
+}
+/* ------------------------------------ */
+.hero-3{
+    width: 100%;
+    height: 100vh;
+}
+.exp-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.exp-cards{
+    width: 25em;
+    height: 10em;
+    border:1px solid #4E4FEB;
+    border-radius: 0.8rem;
+    margin: 1rem;
+}
+.exp-cards:hover{
+    background-color: #4E4FEB;
+}
+/* --------------------------------- */
+.hero-4{
+    width: 100%;
+    height: 100vh;
+}
+.project-wrapper{
+    margin: 0 auto;
+    width: 900px;
+    height: 400px;
+    border: 2px solid #4E4FEB;
+    border-radius: 1rem;
+}
+.proj{
+    margin: 0 auto;
+    width: 850px;
+    height: 35px;
+    border: 2px solid #4E4FEB;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+.proj:hover{
+    background-color: #4E4FEB;
+}
+.proj-text h1{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 1em;
+}
+/* -------------------------------- */
+.hero-5{
+    width: 100%;
+    height: 100vh;
+}
+.contact-wrapper{
+    max-width: 50em;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.contact-1{
+    display: flex;
+    justify-content: space-between;
+}
+::placeholder{
+    font-family: 'DM Serif Display', serif;
+    color: black;
+    font-size: 1.2em;
+}
+.contact-1 input{
+    padding: .8rem;
+    width: 25em;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #EEEEEE;
+    font-family: 'DM Serif Display', serif;
+}
+.contact-2 input{
+    width: 100%;
+    padding: 1.1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    font-family: 'DM Serif Display', serif;
+}
+.btn{
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+}
+.btn input{
+    padding: 0.5rem 1.5rem; 
+    background-color:#068FFF;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1em;
+    font-family: 'DM Serif Display', serif;
+}
+/* ----------------------------- */
+.footer{
+    width: 100%;
+    height: 10px;
+    background-color: #4E4FEB;
+}
